@@ -28,7 +28,7 @@ Project page: https://charigyang.github.io/motiongroup/
 #### How to use this on your own data :
 * Generate optical flow from your dataset using raft/inference.py
 * Edit setup_dataset in config.py to include your dataset, and add this to the choices in parser.add_argument('--dataset') in train.py and eval.py
-* Follow the training and inference instructions above with your own --dataset argument.
+* Follow the training and inference instructions above with your own --dataset argument. Use --resume_path {} if you are fine-tuning.
 
 #### Issues/questions/pull requests :
 are very welcome.
