@@ -1,4 +1,4 @@
-# Motion Grouping
+# Self-supervised Video Object Segmentation by Motion Grouping
 This code accompanies the paper: Self-supervised Video Object Segmentation by Motion Grouping
 Charig Yang, Hala Lamdouar, Erika Lu, Andrew Zisserman, Weidi Xie.
 Project page: https://charigyang.github.io/motiongroup/
