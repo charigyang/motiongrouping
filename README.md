@@ -34,3 +34,15 @@ Project page: https://charigyang.github.io/motiongroup/
 
 #### Issues/questions/pull requests :
 are very welcome.
+
+#### Reference :
+If you find this helpful in your research, we would be grateful if you cite our work
+    
+    @article{yang2021selfsupervised,
+      title={Self-supervised Video Object Segmentation by Motion Grouping}, 
+      author={Charig Yang and Hala Lamdouar and Erika Lu and Andrew Zisserman and Weidi Xie},
+      year={2021},
+      eprint={2104.07658},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+    }
