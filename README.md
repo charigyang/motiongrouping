@@ -1,5 +1,7 @@
 # Motion Grouping
 This code accompanies the paper: Self-supervised Video Object Segmentation by Motion Grouping
+Charig Yang, Hala Lamdouar, Erika Lu, Andrew Zisserman, Weidi Xie.
+Project page: https://charigyang.github.io/motiongroup/
 
 #### Requirements :
     pytorch (tested on 1.7, although any recent version should work)
@@ -19,7 +21,7 @@ This code accompanies the paper: Self-supervised Video Object Segmentation by Mo
 #### Inference :
     python eval.py --dataset DAVIS  --flow_to_rgb --inference --resume_path {}
 
-#### Evaluation :
+#### Benchmark :
 * For DAVIS: use the official evaluation code: https://github.com/fperazzi/davis
 * For MOCA: use tools/MoCA_eval.py
 
