@@ -3,6 +3,8 @@ This code accompanies the paper: Self-supervised Video Object Segmentation by Mo
 
 Charig Yang, Hala Lamdouar, Erika Lu, Andrew Zisserman, Weidi Xie.
 
+ICCV 2021
+
 Project page: https://charigyang.github.io/motiongroup/
 
 #### Requirements :
@@ -38,11 +40,9 @@ are very welcome.
 #### Reference :
 If you find this helpful in your research, we would be grateful if you cite our work
     
-    @article{yang2021selfsupervised,
+    @InProceedings{yang2021selfsupervised,
       title={Self-supervised Video Object Segmentation by Motion Grouping}, 
       author={Charig Yang and Hala Lamdouar and Erika Lu and Andrew Zisserman and Weidi Xie},
+      booktitle={ICCV},
       year={2021},
-      eprint={2104.07658},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
     }
