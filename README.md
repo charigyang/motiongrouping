@@ -16,7 +16,7 @@ Project page: https://charigyang.github.io/motiongroup/
 #### Datasets :
 * DAVIS 2016 can be used as-is.
 * The rest has to be converted to DAVIS format. Some helper functions are available in tools.
-* MoCA needs to be processed. See Supplementary Material for the paper for details. Helper functions are available in tools. The dataset is also available on google drive: https://drive.google.com/drive/u/2/folders/1x-owzr9Voz65NQghrN_H1LEYDaaQP5n1
+* MoCA needs to be processed. See Supplementary Material for the paper for details. Helper functions are available in tools. The (already filtered) dataset is also available on google drive: https://drive.google.com/drive/u/2/folders/1x-owzr9Voz65NQghrN_H1LEYDaaQP5n1, which can be used as-is after download.
 * Precomputed flows can be generated from raft/run_inference.py
 
 #### Training :
