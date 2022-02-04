@@ -19,5 +19,5 @@ for r in reverse:
         raw_outroot = data_path + '/Flows_gap{}/'.format(g)   # where to raw flow
         outroot = data_path + '/FlowImages_gap{}/'.format(g)   # where to save the image flow
       os.system("python predict.py "
-                "--gap {} --mode {} --path {} "
+                "--gap {} --model {} --path {} "
                 "--outroot {} --reverse {} --raw_outroot {}".format(g, mode, f, outroot, r, raw_outroot))
