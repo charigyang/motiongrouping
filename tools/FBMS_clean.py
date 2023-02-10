@@ -58,13 +58,21 @@ for vid in all_vids:
 
     save1 = os.path.join(im_save_dir, vid)
     os.makedirs(save1, exist_ok=True)
-    for i, im in enumerate(images):
-    	img = os.path.join(vid_dir, im)
-    	save_name = str(i+1).zfill(5) + ".jpg"
-    	shutil.copy2(img, os.path.join(save1, save_name))
-
+    
     anno_dir = os.path.join(vid_dir, "GroundTruth")
     annotation_fnames, n_with_gt, type_weird = find_gt(anno_dir)
+    
+    for i, im in enumerate(annotation_fnames):
+        im = im.split('.')[0]
+        if "gt" in im:  # remove _gt.* from im
+            im = im[:-3]
+
+        img = os.path.join(vid_dir, im+".jpg")
+        
+        fnum = n_with_gt[i]
+        save_name = f"{str(fnum).zfill(5)}.jpg"
+        shutil.copy2(img, os.path.join(save1, save_name))
+        
 
     save2 = os.path.join(anno_save_dir, vid)
     os.makedirs(save2, exist_ok=True)
